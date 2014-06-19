@@ -16,6 +16,8 @@ class homeActions extends sfActions
    */
   public function executeIndex()
   {
- 
+      $roomAktif=  RoomPeer::ambilRoom();
+      $this->room=$roomAktif;
+      
   }
 }
