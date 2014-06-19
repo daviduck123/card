@@ -21,4 +21,20 @@ class homeActions extends sfActions
       //asd
       
   }
+  public function executeTambahRoom()
+  {
+    
+       if ($this->getRequest()->getMethod() == sfRequest::POST) {
+
+            $data = $this->getRequestParameter('data');
+            $room=new Room();
+            $room->setNama($data);
+            $room->setJumlah(0);
+            $room->setMax(4);
+            $room->setStatus(0);
+            $room->save();
+       }
+       return $this->redirect('home');
+      
+  }
 }

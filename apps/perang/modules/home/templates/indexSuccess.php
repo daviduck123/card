@@ -5,7 +5,7 @@
     <table id="table1" class="table table-striped table-bordered" >
         <thead>
 
-        <th>Nomor</th>
+        <th width="10px">#</th>
         <th>Nama Room</th>
         <th> Player</th>
         <th> Join</th>
@@ -14,7 +14,7 @@
 
         <tbody>
             <?php
-            $conter = 0;
+            $conter = 1;
             foreach ($room as $row) :
                 ?>
                 <tr>
@@ -25,7 +25,7 @@
                 </tr>
 
 
-                <?php $conterr++; ?>
+                <?php $conter++; ?>
 
             <?php endforeach; ?>
         </tbody>
@@ -51,13 +51,13 @@
 
             <div class="modal-body">
 
-                <form id="simpanBarang" class="form-horizontal " action="<?php echo url_for('barang/simpan'); ?>" method="post">
+                <form id="simpanBarang" class="form-horizontal " action="<?php echo url_for('home/tambahRoom'); ?>" method="post">
 
 
                     <div class="form-group">
                         <label for="inputnama" class ="col-lg-3 control-label">Nama Room :</label>
                         <div class="col-lg-8">
-                            <?php echo input_tag('data[nama]', '', array('id' => 'data_nama', 'class' => 'form-control', 'maxlength' => '40')) ?>
+                            <?php echo input_tag('data', '', array('id' => 'data_nama', 'class' => 'form-control', 'maxlength' => '40')) ?>
                         </div>
 
                     </div>
@@ -86,7 +86,7 @@
 <script>
     function validator()
     {
-        if($('#data_nama').empty())
+        if(!$('#data_nama').val())
         {
             alertify.alert('Nama Room Harus Diisi');
             event.preventDefault();
