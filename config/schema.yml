@@ -33,6 +33,7 @@ propel:
         jumlah: integer
         max: integer
         id_user: { type: integer, required: true, foreignTable: user, foreignReference: id }
+        status: integer
         created_at: ~
         updated_at: ~
     user:
