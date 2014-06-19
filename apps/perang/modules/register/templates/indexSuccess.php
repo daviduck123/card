@@ -1,4 +1,4 @@
-<?php use_helper('Validation', 'I18N') ?>
+<?php use_helper('Validation', 'I18N', 'Object') ?>
 <body >
 
     <div class="container">
@@ -10,13 +10,13 @@
                     </div>
                     <div class="panel-body">
                         <div id="sf_guard_auth_form">
-                            <form method="post" action="<?php echo url_for('register/signup');?>" enctype="multipart/form-data" role="form">
+                            <form method="post" action="<?php echo url_for('register/signup'); ?>" enctype="multipart/form-data" role="form">
                                 <fieldset>
                                     <div class="form-group">
                                         <label>Username:</label>
                                         <?php
-                                        echo form_error('username'),
-                                        input_tag('username', $sf_data->get('sf_params')->get('username'), array('class' => 'form-control'));
+                                        echo form_error('username');
+                                        echo input_tag("data[username]", '', array('class' => 'form-control'))
                                         ?>
                                     </div>
 
@@ -24,23 +24,23 @@
                                         <label>Password:</label>
                                         <?php
                                         echo form_error('password');
+                                        echo input_tag("data[password]", '', array('class' => 'form-control', "type" => "password"))
                                         ?>
-                                        <input type="password" name="password" id="password" value="" class="form-control">
                                     </div>
                                     <hr>
                                     <div class="form-group">
                                         <label>Nama:</label>
                                         <?php
                                         echo form_error('nama');
+                                        echo input_tag("data[nama]", '', array('class' => 'form-control'))
                                         ?>
-                                        <input type="text" name="nama" id="nama" value="" class="form-control">
                                     </div>
                                     <div class="form-group">
                                         <label>File:</label>
                                         <?php
                                         echo form_error('file');
+                                        echo input_tag("file", '', array('class' => 'form-control', "type" => "file"))
                                         ?>
-                                        <input type="file" name="gambar" id="file" value="" class="form-control">
                                     </div>
 
 

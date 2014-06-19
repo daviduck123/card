@@ -1,8 +1,0 @@
-Customer:
-<?php for($i = 1 ; $i<=50; $i++): ?>
-  customer_<?php echo $i ?>:
-    nama: customer<?php echo $i."\n" ?>
-    alamat: Alamat dari Customer <?php echo $i."\n" ?>
-    kota: Kota <?php echo $i."\n" ?>
-    tlp: 533300 <?php echo $i."\n" ?>
-<?php endfor ?>

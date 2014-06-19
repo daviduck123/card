@@ -1,0 +1,11 @@
+all:
+  layout: layout
+
+#this will apply login_layout to the loginSuccess view
+indexSuccess:
+  layout: layout
+  stylesheets:    [bootstrap.css, custom.css, side.css, theme.bootstrap.css, jquery.tablesorter.pager.css]
+
+  javascripts:    [jq.js, bootstrap.js, jquery.tablesorter.js, jquery.tablesorter.widgets.js, jquery.tablesorter.pager.js]
+
+
