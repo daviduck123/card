@@ -1,0 +1,65 @@
+propel:
+  kategori:
+    id: ~
+    nama: longvarchar
+    deskripsi: longvarchar
+    nama_strip: { type: varchar, size: 100 }
+    created_at: ~
+    updated_at: ~
+  barang:
+    id: ~
+    nama: varchar(50)
+    deskripsi: longvarchar
+    stok: integer
+    harga_beli: float
+    harga_jual: float
+    status: { type: smallint, default: 0 }
+    kategori_id: { type: integer, required: true, foreignTable: kategori, foreignReference: id }
+    nama_strip: { type: varchar, size: 100 }
+    namaFile: { type: varchar, size: 100 }
+    created_at: ~
+    updated_at: ~
+ 
+  pegawai: 
+    id: ~
+    nama: { type: varchar, size: 100, required: true }
+    nama_strip: { type: varchar, size: 100, required: true }
+    is_aktif: {type: boolean, default: true }
+    alamat: varchar(255)
+    kota: varchar(50)
+    jabatan: varchar(25)
+    gaji: float
+    sf_guard_user_id: {type: integer, required: false, foreignTable: sf_guard_user, foreignReference: id, onDelete: restrict }
+    created_at: ~
+    updated_at: ~
+ 
+  pembelian: 
+    id: ~
+    tanggal: date
+    grand_total: float
+    pegawai_id: {type: integer, required: true, foreignTable: pegawai, foreignReference: id }
+    created_at: ~
+    updated_at: ~
+ 
+  pembelian_barang:
+    id_pembelian: { type: integer, required: true, foreignTable: pembelian, foreignReference: id }
+    id_barang: { type: integer, required: true, foreignTable: barang, foreignReference: id }
+    jumlah: integer
+    harga: float
+    
+  penjualan: 
+    id: ~
+    tanggal: date
+    grand_total: float
+    pegawai_id: {type: integer, required: true, foreignTable: pegawai, foreignReference: id }
+    created_at: ~
+    updated_at: ~
+ 
+  penjualan_barang:
+    id_pembelian: { type: integer, required: true, foreignTable: pembelian, foreignReference: id }
+    id_barang: { type: integer, required: true, foreignTable: barang, foreignReference: id }
+    jumlah: integer
+    harga: float
+ 
+    
+    

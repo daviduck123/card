@@ -1,0 +1,22 @@
+/* 
+    Document   : custom
+    Created on : 19 Mei 14, 13:10:37
+    Author     : Toshiba
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.containnyo
+{
+  
+   
+}
+.td
+{
+    font-size: 14;
+   
+}
+.panel-faq .panel-heading .panel-title span {
+    font-size: 13px;
+    font-weight: normal;
+}

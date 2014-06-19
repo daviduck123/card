@@ -1,0 +1,33 @@
+# default rules
+list:
+  url: /cantik/:nama_strip
+  param: { module: list, action: detail }
+list:
+  url: /cantikkategori/:nama_strip
+  param: { module: list, action: detailKategori }
+  
+pegawai:
+  url: /wow/:nama_strip
+  param: { module: pegawai, action: detail }  
+  
+  
+logOut:
+  url:   /keluar
+  param: { module: sfGuardAuth, action: signout}  
+  
+homepage:
+  url:   /
+  param: { module: percobaan, action: index }
+
+default_symfony:
+  url:   /symfony/:action/*
+  param: { module: default }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+
+

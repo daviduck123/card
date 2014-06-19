@@ -1,0 +1,8 @@
+Barang:
+<?php for ($i=1;$i<=200;$i++): ?>
+  barang_<?php echo $i ?>:
+     nama: Barang <?php echo $i."\n" ?>
+     nama_strip: Barang<?php echo $i."\n" ?>
+     deskripsi: Deskripsi barang <?php echo $i."\n" ?>
+     kategori_id: kategori_<?php echo (($i%10)+1)."\n" ?>
+<?php endfor ?>

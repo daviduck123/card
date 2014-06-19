@@ -1,0 +1,7 @@
+Kategori:
+<?php for($i = 1 ; $i<=10; $i++): ?>
+  kategori_<?php echo $i ?>:
+    nama: Kategori<?php echo $i."\n" ?>
+    nama_strip: Kategori-<?php echo $i."\n" ?>
+    deskripsi: Deskripsi dari Kategori <?php echo $i."\n" ?>
+<?php endfor ?>

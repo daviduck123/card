@@ -1,0 +1,7 @@
+#kalau [admin, lihat] maka cuma yang bisa ad 2 itu, supaya bisa admin || lihat maka sprti d bwh
+index:
+  credentials: [[admin, lihat]] 
+#buat:
+#  credentials: [[admin, ubah]]
+detail:
+  credentials: [[admin, lihat]]
