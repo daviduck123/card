@@ -4802,3 +4802,1332 @@ Jun 19 18:05:45 symfony [info] {sfTimerManager} Configuration 24.82 ms (10)
 Jun 19 18:05:45 symfony [info] {sfTimerManager} Action "home/index" 64.97 ms (1)
 Jun 19 18:05:45 symfony [info] {sfTimerManager} Database 0.87 ms (1)
 Jun 19 18:05:45 symfony [info] {sfTimerManager} View "Success" for "home/index" 29.05 ms (1)
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/symfony/:action/*"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/:module"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/:module/:action/*"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:01 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:01 symfony [info] {sfContext} initialization
+Jun 19 13:33:01 symfony [info] {sfController} initialization
+Jun 19 13:33:01 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:33:01 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:33:01 symfony [info] {sfController} dispatch request
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:33:01 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:33:01 symfony [info] {sfValidator} validation execution
+Jun 19 13:33:01 symfony [info] {sfAction} call "sfGuardAuthActions->executeSignin()"
+Jun 19 13:33:01 symfony [info] {sfView} initialize view for "sfGuardAuth/signin"
+Jun 19 13:33:01 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/sfGuardAuth/templates/signinSuccess.php"
+Jun 19 13:33:01 symfony [info] {sfView} decorate content with "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:33:01 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:33:01 symfony [info] {sfFilter} render to client
+Jun 19 13:33:01 symfony [info] {sfResponse} send status "HTTP/1.0 401 Unauthorized"
+Jun 19 13:33:01 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:33:01 symfony [info] {sfResponse} send content (28394 o)
+Jun 19 13:33:01 symfony [info] {sfTimerManager} Configuration 63.93 ms (13)
+Jun 19 13:33:01 symfony [info] {sfTimerManager} Action "sfGuardAuth/signin" 0.12 ms (1)
+Jun 19 13:33:01 symfony [info] {sfTimerManager} View "Success" for "sfGuardAuth/signin" 18.70 ms (1)
+Jun 19 13:33:02 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:02 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:02 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:02 symfony [info] {sfContext} initialization
+Jun 19 13:33:02 symfony [info] {sfController} initialization
+Jun 19 13:33:02 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:33:02 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:33:02 symfony [info] {sfController} dispatch request
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:33:02 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:33:02 symfony [info] {sfValidator} validation execution
+Jun 19 13:33:02 symfony [info] {sfAction} call "sfGuardAuthActions->executeSignin()"
+Jun 19 13:33:02 symfony [info] {sfView} initialize view for "sfGuardAuth/signin"
+Jun 19 13:33:02 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/sfGuardAuth/templates/signinSuccess.php"
+Jun 19 13:33:02 symfony [info] {sfView} decorate content with "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:33:02 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:33:02 symfony [info] {sfFilter} render to client
+Jun 19 13:33:02 symfony [info] {sfResponse} send status "HTTP/1.0 401 Unauthorized"
+Jun 19 13:33:02 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:33:02 symfony [info] {sfResponse} send content (26784 o)
+Jun 19 13:33:02 symfony [info] {sfTimerManager} Configuration 13.43 ms (14)
+Jun 19 13:33:02 symfony [info] {sfTimerManager} Action "sfGuardAuth/signin" 0.08 ms (1)
+Jun 19 13:33:02 symfony [info] {sfTimerManager} View "Success" for "sfGuardAuth/signin" 12.17 ms (1)
+Jun 19 13:33:06 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:06 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:06 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:06 symfony [info] {sfContext} initialization
+Jun 19 13:33:06 symfony [info] {sfController} initialization
+Jun 19 13:33:06 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:33:06 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:33:06 symfony [info] {sfController} dispatch request
+Jun 19 13:33:06 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:06 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:06 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:33:06 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:33:06 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:33:06 symfony [info] {sfValidator} validation execution
+Jun 19 13:33:06 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'localhost',   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:33:07 symfony [err] {sfException}  [wrapped: connect failed [Native Error: Access denied for user 'root'@'localhost' (using password: YES)] [User Info: Array]] in C:\symfony-1.0\lib\vendor\propel\Propel.php line 489
+Jun 19 13:33:09 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:09 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:09 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:09 symfony [info] {sfContext} initialization
+Jun 19 13:33:09 symfony [info] {sfController} initialization
+Jun 19 13:33:09 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:33:09 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:33:09 symfony [info] {sfController} dispatch request
+Jun 19 13:33:09 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:09 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:09 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:33:09 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:33:09 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:33:09 symfony [info] {sfValidator} validation execution
+Jun 19 13:33:09 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'localhost',   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:33:10 symfony [err] {sfException}  [wrapped: connect failed [Native Error: Access denied for user 'root'@'localhost' (using password: YES)] [User Info: Array]] in C:\symfony-1.0\lib\vendor\propel\Propel.php line 489
+Jun 19 13:33:26 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:26 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:26 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:26 symfony [info] {sfContext} initialization
+Jun 19 13:33:26 symfony [info] {sfController} initialization
+Jun 19 13:33:26 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:33:26 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:33:26 symfony [info] {sfController} dispatch request
+Jun 19 13:33:26 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:26 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:26 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:33:26 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:33:26 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:33:26 symfony [info] {sfValidator} validation execution
+Jun 19 13:33:26 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'localhost',   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:33:27 symfony [err] {sfException}  [wrapped: connect failed [Native Error: Access denied for user 'root'@'localhost' (using password: YES)] [User Info: Array]] in C:\symfony-1.0\lib\vendor\propel\Propel.php line 489
+Jun 19 13:33:47 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:47 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:47 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:47 symfony [info] {sfContext} initialization
+Jun 19 13:33:47 symfony [info] {sfController} initialization
+Jun 19 13:33:47 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:33:47 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:33:47 symfony [info] {sfController} dispatch request
+Jun 19 13:33:47 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:47 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:47 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:33:47 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:33:47 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:33:47 symfony [info] {sfValidator} validation execution
+Jun 19 13:33:47 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'localhost',   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:33:48 symfony [err] {sfException}  [wrapped: connect failed [Native Error: Access denied for user 'root'@'localhost' (using password: YES)] [User Info: Array]] in C:\symfony-1.0\lib\vendor\propel\Propel.php line 489
+Jun 19 13:33:50 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:33:50 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:33:50 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:33:50 symfony [info] {sfContext} initialization
+Jun 19 13:33:50 symfony [info] {sfController} initialization
+Jun 19 13:33:50 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:33:50 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:33:50 symfony [info] {sfController} dispatch request
+Jun 19 13:33:50 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:33:50 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:33:50 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:33:50 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:33:50 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:33:50 symfony [info] {sfValidator} validation execution
+Jun 19 13:33:50 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'localhost',   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:33:51 symfony [err] {sfException}  [wrapped: connect failed [Native Error: Access denied for user 'root'@'localhost' (using password: YES)] [User Info: Array]] in C:\symfony-1.0\lib\vendor\propel\Propel.php line 489
+Jun 19 13:34:12 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:34:12 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:34:12 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:34:12 symfony [info] {sfContext} initialization
+Jun 19 13:34:12 symfony [info] {sfController} initialization
+Jun 19 13:34:12 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:34:12 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:34:12 symfony [info] {sfController} dispatch request
+Jun 19 13:34:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:34:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:34:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:34:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:34:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:34:12 symfony [info] {sfValidator} validation execution
+Jun 19 13:34:12 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'localhost',   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:34:13 symfony [err] {sfException}  [wrapped: connect failed [Native Error: Access denied for user 'root'@'localhost' (using password: YES)] [User Info: Array]] in C:\symfony-1.0\lib\vendor\propel\Propel.php line 489
+Jun 19 13:34:15 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:34:15 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:34:15 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:34:15 symfony [info] {sfContext} initialization
+Jun 19 13:34:15 symfony [info] {sfController} initialization
+Jun 19 13:34:15 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:34:15 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:34:15 symfony [info] {sfController} dispatch request
+Jun 19 13:34:15 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:34:15 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:34:15 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:34:15 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:34:15 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:34:15 symfony [info] {sfValidator} validation execution
+Jun 19 13:34:15 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'localhost',   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:34:16 symfony [err] {sfException}  [wrapped: connect failed [Native Error: Access denied for user 'root'@'localhost' (using password: YES)] [User Info: Array]] in C:\symfony-1.0\lib\vendor\propel\Propel.php line 489
+Jun 19 13:34:41 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:34:41 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:34:41 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:34:41 symfony [info] {sfContext} initialization
+Jun 19 13:34:41 symfony [info] {sfController} initialization
+Jun 19 13:34:41 symfony [info] {sfRouting} match route [sf_guard_signin] "/login"
+Jun 19 13:34:41 symfony [info] {sfRequest} request parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',  'username' => 'daviduck123',  'password' => 'tampan',)
+Jun 19 13:34:41 symfony [info] {sfController} dispatch request
+Jun 19 13:34:41 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:34:41 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:34:41 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:34:41 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:34:41 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:34:41 symfony [info] {sfValidator} validation execution
+Jun 19 13:34:41 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => NULL,   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:34:42 symfony [info] {sfCreole} prepareStatement(): SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.USERNAME=? AND sf_guard_user.IS_ACTIVE=?
+Jun 19 13:34:42 symfony [info] {sfCreole} applyLimit(): SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.USERNAME='daviduck123' AND sf_guard_user.IS_ACTIVE=1, offset: 0, limit: 1
+Jun 19 13:34:42 symfony [info] {sfCreole} executeQuery(): [1.24 ms] SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.USERNAME='daviduck123' AND sf_guard_user.IS_ACTIVE=1 LIMIT 1
+Jun 19 13:34:42 symfony [info] {sfUser} user is authenticated
+Jun 19 13:34:42 symfony [info] {sfCreole} prepareStatement(): SELECT sf_guard_user_permission.USER_ID, sf_guard_user_permission.PERMISSION_ID, sf_guard_permission.ID, sf_guard_permission.NAME, sf_guard_permission.DESCRIPTION FROM sf_guard_user_permission, sf_guard_permission WHERE sf_guard_user_permission.USER_ID=? AND sf_guard_user_permission.PERMISSION_ID=sf_guard_permission.ID
+Jun 19 13:34:42 symfony [info] {sfCreole} executeQuery(): [1.52 ms] SELECT sf_guard_user_permission.USER_ID, sf_guard_user_permission.PERMISSION_ID, sf_guard_permission.ID, sf_guard_permission.NAME, sf_guard_permission.DESCRIPTION FROM sf_guard_user_permission, sf_guard_permission WHERE sf_guard_user_permission.USER_ID=1 AND sf_guard_user_permission.PERMISSION_ID=sf_guard_permission.ID
+Jun 19 13:34:42 symfony [info] {sfCreole} prepareStatement(): SELECT sf_guard_user_group.USER_ID, sf_guard_user_group.GROUP_ID, sf_guard_group.ID, sf_guard_group.NAME, sf_guard_group.DESCRIPTION FROM sf_guard_user_group, sf_guard_group WHERE sf_guard_user_group.USER_ID=? AND sf_guard_user_group.GROUP_ID=sf_guard_group.ID
+Jun 19 13:34:42 symfony [info] {sfCreole} executeQuery(): [1.53 ms] SELECT sf_guard_user_group.USER_ID, sf_guard_user_group.GROUP_ID, sf_guard_group.ID, sf_guard_group.NAME, sf_guard_group.DESCRIPTION FROM sf_guard_user_group, sf_guard_group WHERE sf_guard_user_group.USER_ID=1 AND sf_guard_user_group.GROUP_ID=sf_guard_group.ID
+Jun 19 13:34:42 symfony [info] {sfUser} add credential(s) ""
+Jun 19 13:34:42 symfony [info] {sfCreole} beginning transaction.
+Jun 19 13:34:42 symfony [info] {sfCreole} prepareStatement(): UPDATE sf_guard_user SET LAST_LOGIN = ? WHERE sf_guard_user.ID=?
+Jun 19 13:34:42 symfony [info] {sfCreole} executeUpdate(): UPDATE sf_guard_user SET LAST_LOGIN = '2014-06-19 13:34:42' WHERE sf_guard_user.ID=1
+Jun 19 13:34:42 symfony [info] {sfCreole} committing transaction.
+Jun 19 13:34:42 symfony [info] {sfAction} call "sfGuardAuthActions->executeSignin()"
+Jun 19 13:34:42 symfony [info] {sfAction} redirect to "http://localhost/card/web/perang_dev.php"
+Jun 19 13:34:42 symfony [info] {sfResponse} send status "HTTP/1.0 302 Found"
+Jun 19 13:34:42 symfony [info] {sfResponse} send header "Location": "http://localhost/card/web/perang_dev.php"
+Jun 19 13:34:42 symfony [info] {sfResponse} send content (111 o)
+Jun 19 13:34:42 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:34:42 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:34:42 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:34:42 symfony [info] {sfContext} initialization
+Jun 19 13:34:42 symfony [info] {sfController} initialization
+Jun 19 13:34:42 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:34:42 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:34:42 symfony [info] {sfController} dispatch request
+Jun 19 13:34:42 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:34:42 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:34:42 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:34:42 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:34:42 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:34:42 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:34:42 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:34:42 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:34:42 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:34:42 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:42 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:42 symfony [info] {sfFilter} render to client
+Jun 19 13:34:42 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:34:42 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:34:42 symfony [info] {sfResponse} send content (24258 o)
+Jun 19 13:34:42 symfony [info] {sfTimerManager} Configuration 21.77 ms (11)
+Jun 19 13:34:42 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:34:42 symfony [info] {sfTimerManager} View "Success" for "default/index" 23.15 ms (1)
+Jun 19 13:34:43 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:34:43 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:34:43 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:34:43 symfony [info] {sfContext} initialization
+Jun 19 13:34:43 symfony [info] {sfController} initialization
+Jun 19 13:34:43 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:34:43 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:34:43 symfony [info] {sfController} dispatch request
+Jun 19 13:34:43 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:34:43 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:34:43 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:34:43 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:34:43 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:34:43 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:34:43 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:34:43 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:34:43 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:34:43 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:43 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:43 symfony [info] {sfFilter} render to client
+Jun 19 13:34:43 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:34:43 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:34:43 symfony [info] {sfResponse} send content (24257 o)
+Jun 19 13:34:43 symfony [info] {sfTimerManager} Configuration 8.58 ms (10)
+Jun 19 13:34:43 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:34:43 symfony [info] {sfTimerManager} View "Success" for "default/index" 11.28 ms (1)
+Jun 19 13:34:44 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:34:44 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:34:44 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:34:44 symfony [info] {sfContext} initialization
+Jun 19 13:34:44 symfony [info] {sfController} initialization
+Jun 19 13:34:44 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:34:44 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:34:44 symfony [info] {sfController} dispatch request
+Jun 19 13:34:44 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:34:44 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:34:44 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:34:44 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:34:44 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:34:44 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:34:44 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:34:44 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:34:44 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:34:44 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:44 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:44 symfony [info] {sfFilter} render to client
+Jun 19 13:34:44 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:34:44 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:34:44 symfony [info] {sfResponse} send content (24255 o)
+Jun 19 13:34:44 symfony [info] {sfTimerManager} Configuration 7.12 ms (10)
+Jun 19 13:34:44 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:34:44 symfony [info] {sfTimerManager} View "Success" for "default/index" 10.36 ms (1)
+Jun 19 13:34:49 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:34:49 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:34:49 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:34:49 symfony [info] {sfContext} initialization
+Jun 19 13:34:49 symfony [info] {sfController} initialization
+Jun 19 13:34:49 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:34:49 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:34:49 symfony [info] {sfController} dispatch request
+Jun 19 13:34:49 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:34:49 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:34:49 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:34:49 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:34:49 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:34:49 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:34:49 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:34:49 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:34:49 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:34:49 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:49 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:34:49 symfony [info] {sfFilter} render to client
+Jun 19 13:34:49 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:34:49 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:34:49 symfony [info] {sfResponse} send content (24256 o)
+Jun 19 13:34:49 symfony [info] {sfTimerManager} Configuration 7.46 ms (10)
+Jun 19 13:34:49 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:34:49 symfony [info] {sfTimerManager} View "Success" for "default/index" 9.37 ms (1)
+Jun 19 13:35:03 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:03 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:03 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:03 symfony [info] {sfContext} initialization
+Jun 19 13:35:03 symfony [info] {sfController} initialization
+Jun 19 13:35:03 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:03 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:03 symfony [info] {sfController} dispatch request
+Jun 19 13:35:03 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:03 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:03 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:03 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:03 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:03 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:03 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:03 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:03 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:03 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:03 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:03 symfony [info] {sfFilter} render to client
+Jun 19 13:35:03 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:03 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:03 symfony [info] {sfResponse} send content (24257 o)
+Jun 19 13:35:03 symfony [info] {sfTimerManager} Configuration 8.52 ms (10)
+Jun 19 13:35:03 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:35:03 symfony [info] {sfTimerManager} View "Success" for "default/index" 10.52 ms (1)
+Jun 19 13:35:04 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:04 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:04 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:04 symfony [info] {sfContext} initialization
+Jun 19 13:35:04 symfony [info] {sfController} initialization
+Jun 19 13:35:04 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:04 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:04 symfony [info] {sfController} dispatch request
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:04 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:04 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:04 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:04 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:04 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:04 symfony [info] {sfFilter} render to client
+Jun 19 13:35:04 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:04 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:04 symfony [info] {sfResponse} send content (24257 o)
+Jun 19 13:35:04 symfony [info] {sfTimerManager} Configuration 7.03 ms (10)
+Jun 19 13:35:04 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:35:04 symfony [info] {sfTimerManager} View "Success" for "default/index" 10.49 ms (1)
+Jun 19 13:35:04 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:04 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:04 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:04 symfony [info] {sfContext} initialization
+Jun 19 13:35:04 symfony [info] {sfController} initialization
+Jun 19 13:35:04 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:04 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:04 symfony [info] {sfController} dispatch request
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:04 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:04 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:04 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:04 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:04 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:04 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:04 symfony [info] {sfFilter} render to client
+Jun 19 13:35:04 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:04 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:04 symfony [info] {sfResponse} send content (24255 o)
+Jun 19 13:35:04 symfony [info] {sfTimerManager} Configuration 7.05 ms (10)
+Jun 19 13:35:04 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:35:04 symfony [info] {sfTimerManager} View "Success" for "default/index" 9.76 ms (1)
+Jun 19 13:35:05 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:05 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:05 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:05 symfony [info] {sfContext} initialization
+Jun 19 13:35:05 symfony [info] {sfController} initialization
+Jun 19 13:35:05 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:05 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:05 symfony [info] {sfController} dispatch request
+Jun 19 13:35:05 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:05 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:05 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:05 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:05 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:05 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:05 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:05 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:05 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:05 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:05 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:05 symfony [info] {sfFilter} render to client
+Jun 19 13:35:05 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:05 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:05 symfony [info] {sfResponse} send content (24257 o)
+Jun 19 13:35:05 symfony [info] {sfTimerManager} Configuration 7.34 ms (10)
+Jun 19 13:35:05 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:35:05 symfony [info] {sfTimerManager} View "Success" for "default/index" 10.18 ms (1)
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:11 symfony [info] {sfContext} initialization
+Jun 19 13:35:11 symfony [info] {sfController} initialization
+Jun 19 13:35:11 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:11 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:11 symfony [info] {sfController} dispatch request
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:11 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:11 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:11 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:11 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:11 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:11 symfony [info] {sfFilter} render to client
+Jun 19 13:35:11 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:11 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:11 symfony [info] {sfResponse} send content (24257 o)
+Jun 19 13:35:11 symfony [info] {sfTimerManager} Configuration 7.79 ms (10)
+Jun 19 13:35:11 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:11 symfony [info] {sfTimerManager} View "Success" for "default/index" 11.56 ms (1)
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:11 symfony [info] {sfContext} initialization
+Jun 19 13:35:11 symfony [info] {sfController} initialization
+Jun 19 13:35:11 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:11 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:11 symfony [info] {sfController} dispatch request
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:11 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:11 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:11 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:11 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:11 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:11 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:11 symfony [info] {sfFilter} render to client
+Jun 19 13:35:11 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:11 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:11 symfony [info] {sfResponse} send content (24256 o)
+Jun 19 13:35:11 symfony [info] {sfTimerManager} Configuration 7.12 ms (10)
+Jun 19 13:35:11 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:11 symfony [info] {sfTimerManager} View "Success" for "default/index" 9.61 ms (1)
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:11 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:12 symfony [info] {sfContext} initialization
+Jun 19 13:35:12 symfony [info] {sfController} initialization
+Jun 19 13:35:12 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:12 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:12 symfony [info] {sfController} dispatch request
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:12 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:12 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:12 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfFilter} render to client
+Jun 19 13:35:12 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:12 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:12 symfony [info] {sfResponse} send content (24255 o)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Configuration 7.29 ms (10)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} View "Success" for "default/index" 9.42 ms (1)
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:12 symfony [info] {sfContext} initialization
+Jun 19 13:35:12 symfony [info] {sfController} initialization
+Jun 19 13:35:12 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:12 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:12 symfony [info] {sfController} dispatch request
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:12 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:12 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:12 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfFilter} render to client
+Jun 19 13:35:12 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:12 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:12 symfony [info] {sfResponse} send content (24256 o)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Configuration 8.48 ms (10)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} View "Success" for "default/index" 8.52 ms (1)
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:12 symfony [info] {sfContext} initialization
+Jun 19 13:35:12 symfony [info] {sfController} initialization
+Jun 19 13:35:12 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:12 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:12 symfony [info] {sfController} dispatch request
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:12 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:12 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:12 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:12 symfony [info] {sfContext} initialization
+Jun 19 13:35:12 symfony [info] {sfFilter} render to client
+Jun 19 13:35:12 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:12 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:12 symfony [info] {sfResponse} send content (24257 o)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Configuration 7.83 ms (10)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} View "Success" for "default/index" 11.46 ms (1)
+Jun 19 13:35:12 symfony [info] {sfController} initialization
+Jun 19 13:35:12 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:12 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:12 symfony [info] {sfController} dispatch request
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:12 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:12 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:12 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfFilter} render to client
+Jun 19 13:35:12 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:12 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:12 symfony [info] {sfResponse} send content (24256 o)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Configuration 7.16 ms (10)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} View "Success" for "default/index" 10.06 ms (1)
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:12 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:12 symfony [info] {sfContext} initialization
+Jun 19 13:35:12 symfony [info] {sfController} initialization
+Jun 19 13:35:12 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:12 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:12 symfony [info] {sfController} dispatch request
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:12 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:12 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:12 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:12 symfony [info] {sfFilter} render to client
+Jun 19 13:35:12 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:12 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:12 symfony [info] {sfResponse} send content (24257 o)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Configuration 8.51 ms (10)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:12 symfony [info] {sfTimerManager} View "Success" for "default/index" 11.44 ms (1)
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/symfony/:action/*"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/:module"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/:module/:action/*"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:16 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:16 symfony [info] {sfContext} initialization
+Jun 19 13:35:16 symfony [info] {sfController} initialization
+Jun 19 13:35:16 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:16 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:16 symfony [info] {sfController} dispatch request
+Jun 19 13:35:16 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:16 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:16 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:16 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:16 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:16 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:16 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:16 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:16 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:16 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:16 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:16 symfony [info] {sfFilter} render to client
+Jun 19 13:35:16 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:16 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:16 symfony [info] {sfResponse} send content (26237 o)
+Jun 19 13:35:16 symfony [info] {sfTimerManager} Configuration 41.51 ms (9)
+Jun 19 13:35:16 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:16 symfony [info] {sfTimerManager} View "Success" for "default/index" 15.53 ms (1)
+Jun 19 13:35:17 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:35:17 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:35:17 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:35:17 symfony [info] {sfContext} initialization
+Jun 19 13:35:17 symfony [info] {sfController} initialization
+Jun 19 13:35:17 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:35:17 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:35:17 symfony [info] {sfController} dispatch request
+Jun 19 13:35:17 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:35:17 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:35:17 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:35:17 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:35:17 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:35:17 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:35:17 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:35:17 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:35:17 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:35:17 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:17 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:35:17 symfony [info] {sfFilter} render to client
+Jun 19 13:35:17 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:35:17 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:35:17 symfony [info] {sfResponse} send content (24256 o)
+Jun 19 13:35:17 symfony [info] {sfTimerManager} Configuration 7.51 ms (10)
+Jun 19 13:35:17 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:35:17 symfony [info] {sfTimerManager} View "Success" for "default/index" 8.35 ms (1)
+Jun 19 13:36:05 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:05 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:05 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:05 symfony [info] {sfContext} initialization
+Jun 19 13:36:05 symfony [info] {sfController} initialization
+Jun 19 13:36:05 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:36:05 symfony [info] {sfRequest} request parameters array (  'module' => 'register',  'action' => 'index',)
+Jun 19 13:36:05 symfony [info] {sfController} dispatch request
+Jun 19 13:36:05 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:05 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:05 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:05 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:05 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:05 symfony [info] {sfAction} call "registerActions->executeIndex()"
+Jun 19 13:36:05 symfony [info] {sfView} initialize view for "register/index"
+Jun 19 13:36:05 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/register/templates/indexSuccess.php"
+Jun 19 13:36:05 symfony [info] {sfView} decorate content with "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:36:05 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:36:05 symfony [info] {sfFilter} render to client
+Jun 19 13:36:05 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:05 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:05 symfony [info] {sfResponse} send content (25410 o)
+Jun 19 13:36:05 symfony [info] {sfTimerManager} Configuration 34.47 ms (11)
+Jun 19 13:36:05 symfony [info] {sfTimerManager} Action "register/index" 0.06 ms (1)
+Jun 19 13:36:05 symfony [info] {sfTimerManager} View "Success" for "register/index" 20.48 ms (1)
+Jun 19 13:36:06 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:06 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:06 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:06 symfony [info] {sfContext} initialization
+Jun 19 13:36:06 symfony [info] {sfController} initialization
+Jun 19 13:36:06 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:36:06 symfony [info] {sfRequest} request parameters array (  'module' => 'register',  'action' => 'index',)
+Jun 19 13:36:06 symfony [info] {sfController} dispatch request
+Jun 19 13:36:06 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:06 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:06 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:06 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:06 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:06 symfony [info] {sfAction} call "registerActions->executeIndex()"
+Jun 19 13:36:06 symfony [info] {sfView} initialize view for "register/index"
+Jun 19 13:36:06 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/register/templates/indexSuccess.php"
+Jun 19 13:36:06 symfony [info] {sfView} decorate content with "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:36:06 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\templates/login_layout.php"
+Jun 19 13:36:06 symfony [info] {sfFilter} render to client
+Jun 19 13:36:06 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:06 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:06 symfony [info] {sfResponse} send content (25441 o)
+Jun 19 13:36:06 symfony [info] {sfTimerManager} Configuration 8.22 ms (10)
+Jun 19 13:36:06 symfony [info] {sfTimerManager} Action "register/index" 0.06 ms (1)
+Jun 19 13:36:06 symfony [info] {sfTimerManager} View "Success" for "register/index" 15.65 ms (1)
+Jun 19 13:36:10 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:10 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:10 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:10 symfony [info] {sfContext} initialization
+Jun 19 13:36:10 symfony [info] {sfController} initialization
+Jun 19 13:36:10 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:10 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:10 symfony [info] {sfController} dispatch request
+Jun 19 13:36:10 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:10 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:10 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:10 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:10 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:10 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:10 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:10 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:10 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:10 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:10 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:10 symfony [info] {sfFilter} render to client
+Jun 19 13:36:10 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:10 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:10 symfony [info] {sfResponse} send content (24229 o)
+Jun 19 13:36:10 symfony [info] {sfTimerManager} Configuration 8.52 ms (10)
+Jun 19 13:36:10 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:36:10 symfony [info] {sfTimerManager} View "Success" for "default/index" 8.50 ms (1)
+Jun 19 13:36:24 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:24 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:24 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:24 symfony [info] {sfContext} initialization
+Jun 19 13:36:24 symfony [info] {sfController} initialization
+Jun 19 13:36:24 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:24 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:24 symfony [info] {sfController} dispatch request
+Jun 19 13:36:24 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:24 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:24 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:24 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:24 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:24 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:24 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:24 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:24 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:24 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:24 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:24 symfony [info] {sfFilter} render to client
+Jun 19 13:36:24 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:24 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:24 symfony [info] {sfResponse} send content (24261 o)
+Jun 19 13:36:24 symfony [info] {sfTimerManager} Configuration 7.35 ms (10)
+Jun 19 13:36:24 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:36:24 symfony [info] {sfTimerManager} View "Success" for "default/index" 7.87 ms (1)
+Jun 19 13:36:32 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:32 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:32 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:32 symfony [info] {sfContext} initialization
+Jun 19 13:36:32 symfony [info] {sfController} initialization
+Jun 19 13:36:32 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:32 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:32 symfony [info] {sfController} dispatch request
+Jun 19 13:36:32 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:32 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:32 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:32 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:32 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:32 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:32 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:32 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:32 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:32 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:32 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:32 symfony [info] {sfFilter} render to client
+Jun 19 13:36:32 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:32 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:32 symfony [info] {sfResponse} send content (24261 o)
+Jun 19 13:36:32 symfony [info] {sfTimerManager} Configuration 7.32 ms (10)
+Jun 19 13:36:32 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:36:32 symfony [info] {sfTimerManager} View "Success" for "default/index" 9.84 ms (1)
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:34 symfony [info] {sfContext} initialization
+Jun 19 13:36:34 symfony [info] {sfController} initialization
+Jun 19 13:36:34 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:34 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:34 symfony [info] {sfController} dispatch request
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:34 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:34 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:34 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfFilter} render to client
+Jun 19 13:36:34 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:34 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:34 symfony [info] {sfResponse} send content (24261 o)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Configuration 7.00 ms (10)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} View "Success" for "default/index" 10.48 ms (1)
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:34 symfony [info] {sfContext} initialization
+Jun 19 13:36:34 symfony [info] {sfController} initialization
+Jun 19 13:36:34 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:34 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:34 symfony [info] {sfController} dispatch request
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:34 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:34 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:34 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfFilter} render to client
+Jun 19 13:36:34 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:34 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:34 symfony [info] {sfResponse} send content (24261 o)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Configuration 7.44 ms (10)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} View "Success" for "default/index" 8.51 ms (1)
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:34 symfony [info] {sfContext} initialization
+Jun 19 13:36:34 symfony [info] {sfController} initialization
+Jun 19 13:36:34 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:34 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:34 symfony [info] {sfController} dispatch request
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:34 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:34 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:34 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfFilter} render to client
+Jun 19 13:36:34 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:34 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:34 symfony [info] {sfResponse} send content (24262 o)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Configuration 7.07 ms (10)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} View "Success" for "default/index" 10.64 ms (1)
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:34 symfony [info] {sfContext} initialization
+Jun 19 13:36:34 symfony [info] {sfController} initialization
+Jun 19 13:36:34 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:34 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:34 symfony [info] {sfController} dispatch request
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:34 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:34 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:34 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfFilter} render to client
+Jun 19 13:36:34 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:34 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:34 symfony [info] {sfResponse} send content (24262 o)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Configuration 7.38 ms (10)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} View "Success" for "default/index" 11.82 ms (1)
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:34 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:34 symfony [info] {sfContext} initialization
+Jun 19 13:36:34 symfony [info] {sfController} initialization
+Jun 19 13:36:34 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:34 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:34 symfony [info] {sfController} dispatch request
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:34 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:34 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:34 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:34 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:34 symfony [info] {sfFilter} render to client
+Jun 19 13:36:34 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:34 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:34 symfony [info] {sfResponse} send content (24261 o)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Configuration 7.28 ms (10)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} Action "default/index" 0.06 ms (1)
+Jun 19 13:36:34 symfony [info] {sfTimerManager} View "Success" for "default/index" 7.93 ms (1)
+Jun 19 13:36:35 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:35 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:35 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:35 symfony [info] {sfContext} initialization
+Jun 19 13:36:35 symfony [info] {sfController} initialization
+Jun 19 13:36:35 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 19 13:36:35 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 19 13:36:35 symfony [info] {sfController} dispatch request
+Jun 19 13:36:35 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:35 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:35 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:35 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:35 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:35 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:35 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jun 19 13:36:35 symfony [info] {sfView} initialize view for "default/index"
+Jun 19 13:36:35 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/indexSuccess.php"
+Jun 19 13:36:35 symfony [info] {sfView} decorate content with "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:35 symfony [info] {sfView} render "C:\symfony-1.0\data/modules/default/templates/defaultLayout.php"
+Jun 19 13:36:35 symfony [info] {sfFilter} render to client
+Jun 19 13:36:35 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:35 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:35 symfony [info] {sfResponse} send content (24261 o)
+Jun 19 13:36:35 symfony [info] {sfTimerManager} Configuration 7.00 ms (10)
+Jun 19 13:36:35 symfony [info] {sfTimerManager} Action "default/index" 0.05 ms (1)
+Jun 19 13:36:35 symfony [info] {sfTimerManager} View "Success" for "default/index" 9.81 ms (1)
+Jun 19 13:36:37 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:37 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:37 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:37 symfony [info] {sfContext} initialization
+Jun 19 13:36:37 symfony [info] {sfController} initialization
+Jun 19 13:36:37 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:36:37 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:36:37 symfony [info] {sfController} dispatch request
+Jun 19 13:36:37 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:37 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:37 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:37 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:37 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:37 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:37 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:36:37 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => NULL,   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:36:38 symfony [info] {sfCreole} prepareStatement(): SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=?
+Jun 19 13:36:38 symfony [info] {sfCreole} executeQuery(): [1.26 ms] SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=0
+Jun 19 13:36:38 symfony [info] {sfView} initialize view for "home/index"
+Jun 19 13:36:38 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/home/templates/indexSuccess.php"
+Jun 19 13:36:38 symfony [info] {sfView} decorate content with "C:\xampp\htdocs\card\apps\perang\templates/layout.php"
+Jun 19 13:36:38 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\templates/layout.php"
+Jun 19 13:36:38 symfony [info] {sfFilter} render to client
+Jun 19 13:36:38 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:38 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:38 symfony [info] {sfResponse} send content (28943 o)
+Jun 19 13:36:38 symfony [info] {sfTimerManager} Configuration 80.29 ms (11)
+Jun 19 13:36:38 symfony [info] {sfTimerManager} Action "home/index" 1040.88 ms (1)
+Jun 19 13:36:38 symfony [info] {sfTimerManager} Database 1.26 ms (1)
+Jun 19 13:36:38 symfony [info] {sfTimerManager} View "Success" for "home/index" 63.66 ms (1)
+Jun 19 13:36:39 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:39 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:39 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:39 symfony [info] {sfContext} initialization
+Jun 19 13:36:39 symfony [info] {sfController} initialization
+Jun 19 13:36:39 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:36:39 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:36:39 symfony [info] {sfController} dispatch request
+Jun 19 13:36:39 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:39 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:39 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:39 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:39 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:39 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:39 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:36:39 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => NULL,   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:36:40 symfony [info] {sfCreole} prepareStatement(): SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=?
+Jun 19 13:36:40 symfony [info] {sfCreole} executeQuery(): [0.49 ms] SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=0
+Jun 19 13:36:40 symfony [info] {sfView} initialize view for "home/index"
+Jun 19 13:36:40 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/home/templates/indexSuccess.php"
+Jun 19 13:36:40 symfony [info] {sfView} decorate content with "C:\xampp\htdocs\card\apps\perang\templates/layout.php"
+Jun 19 13:36:40 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\templates/layout.php"
+Jun 19 13:36:40 symfony [info] {sfFilter} render to client
+Jun 19 13:36:40 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 19 13:36:40 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 19 13:36:40 symfony [info] {sfResponse} send content (28972 o)
+Jun 19 13:36:40 symfony [info] {sfTimerManager} Configuration 8.52 ms (10)
+Jun 19 13:36:40 symfony [info] {sfTimerManager} Action "home/index" 1044.15 ms (1)
+Jun 19 13:36:40 symfony [info] {sfTimerManager} Database 0.49 ms (1)
+Jun 19 13:36:40 symfony [info] {sfTimerManager} View "Success" for "home/index" 9.49 ms (1)
+Jun 19 13:36:47 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:47 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:47 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:47 symfony [info] {sfContext} initialization
+Jun 19 13:36:47 symfony [info] {sfController} initialization
+Jun 19 13:36:47 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:36:47 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:36:47 symfony [info] {sfController} dispatch request
+Jun 19 13:36:47 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:47 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:47 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:47 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:47 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:47 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:47 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:36:47 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => NULL,   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:36:48 symfony [info] {sfCreole} prepareStatement(): SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=?
+Jun 19 13:36:48 symfony [info] {sfCreole} executeQuery(): [0.62 ms] SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=0
+Jun 19 13:36:48 symfony [info] {sfView} initialize view for "home/index"
+Jun 19 13:36:48 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/home/templates/indexSuccess.php"
+Jun 19 13:36:49 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:49 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:49 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:49 symfony [info] {sfContext} initialization
+Jun 19 13:36:49 symfony [info] {sfController} initialization
+Jun 19 13:36:49 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:36:49 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:36:49 symfony [info] {sfController} dispatch request
+Jun 19 13:36:49 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:49 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:49 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:49 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:49 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:49 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:49 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:36:49 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'card',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => NULL,   'persistent' => NULL,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'root', ), FLAGS: 0
+Jun 19 13:36:50 symfony [info] {sfCreole} prepareStatement(): SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=?
+Jun 19 13:36:50 symfony [info] {sfCreole} executeQuery(): [0.46 ms] SELECT room.ID, room.NAMA, room.JUMLAH, room.MAX, room.STATUS, room.CREATED_AT, room.UPDATED_AT FROM room WHERE room.STATUS=0
+Jun 19 13:36:50 symfony [info] {sfView} initialize view for "home/index"
+Jun 19 13:36:50 symfony [info] {sfView} render "C:\xampp\htdocs\card\apps\perang\modules/home/templates/indexSuccess.php"
+Jun 19 13:36:58 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:36:58 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:36:58 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:36:58 symfony [info] {sfContext} initialization
+Jun 19 13:36:58 symfony [info] {sfController} initialization
+Jun 19 13:36:58 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:36:58 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:36:58 symfony [info] {sfController} dispatch request
+Jun 19 13:36:58 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:36:58 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:36:58 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:36:58 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:36:58 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:36:58 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:36:58 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:22 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:37:22 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:37:22 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:37:22 symfony [info] {sfContext} initialization
+Jun 19 13:37:22 symfony [info] {sfController} initialization
+Jun 19 13:37:22 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:37:22 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:37:22 symfony [info] {sfController} dispatch request
+Jun 19 13:37:22 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:37:22 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:37:22 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:37:22 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:37:22 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:37:22 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:37:22 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:22 symfony [err] {sfException} Call to undefined method sfUser::sfGuard
+Jun 19 13:37:26 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:37:26 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:37:26 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:37:26 symfony [info] {sfContext} initialization
+Jun 19 13:37:26 symfony [info] {sfController} initialization
+Jun 19 13:37:26 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:37:26 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:37:26 symfony [info] {sfController} dispatch request
+Jun 19 13:37:26 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:37:26 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:37:26 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:37:26 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:37:26 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:37:26 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:37:26 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:26 symfony [err] {sfException} Call to undefined method sfUser::UsersfGuard
+Jun 19 13:37:30 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:37:30 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:37:30 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:37:30 symfony [info] {sfContext} initialization
+Jun 19 13:37:30 symfony [info] {sfController} initialization
+Jun 19 13:37:30 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:37:30 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:37:30 symfony [info] {sfController} dispatch request
+Jun 19 13:37:30 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:37:30 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:37:30 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:37:30 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:37:30 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:37:30 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:37:30 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:30 symfony [err] {sfException} Call to undefined method sfUser::getsfGuard
+Jun 19 13:37:33 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:37:33 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:37:33 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:37:33 symfony [info] {sfContext} initialization
+Jun 19 13:37:33 symfony [info] {sfController} initialization
+Jun 19 13:37:33 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:37:33 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:37:33 symfony [info] {sfController} dispatch request
+Jun 19 13:37:33 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:37:33 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:37:33 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:37:33 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:37:33 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:37:33 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:37:33 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:33 symfony [err] {sfException} Call to undefined method sfUser::getSfGuard
+Jun 19 13:37:37 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:37:37 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:37:37 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:37:37 symfony [info] {sfContext} initialization
+Jun 19 13:37:37 symfony [info] {sfController} initialization
+Jun 19 13:37:37 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:37:37 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:37:37 symfony [info] {sfController} dispatch request
+Jun 19 13:37:37 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:37:37 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:37:37 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:37:37 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:37:37 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:37:37 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:37:37 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:37 symfony [err] {sfException} Call to undefined method sfUser::getUserSfGuard
+Jun 19 13:37:43 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:37:43 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:37:43 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:37:43 symfony [info] {sfContext} initialization
+Jun 19 13:37:43 symfony [info] {sfController} initialization
+Jun 19 13:37:43 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:37:43 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:37:43 symfony [info] {sfController} dispatch request
+Jun 19 13:37:43 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:37:43 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:37:43 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:37:43 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:37:43 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:37:43 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:37:43 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:43 symfony [err] {sfException} Call to undefined method sfUser::getUser
+Jun 19 13:37:58 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:37:58 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:37:58 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:37:58 symfony [info] {sfContext} initialization
+Jun 19 13:37:58 symfony [info] {sfController} initialization
+Jun 19 13:37:58 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:37:58 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:37:58 symfony [info] {sfController} dispatch request
+Jun 19 13:37:58 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:37:58 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:37:58 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:37:58 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:37:58 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:37:58 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:37:58 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:37:58 symfony [err] {sfException} Call to undefined method sfUser::getSfGuardUser
+Jun 19 13:38:27 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:38:27 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:38:27 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:38:27 symfony [info] {sfContext} initialization
+Jun 19 13:38:27 symfony [info] {sfController} initialization
+Jun 19 13:38:27 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:38:27 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:38:27 symfony [info] {sfController} dispatch request
+Jun 19 13:38:27 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:38:27 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:38:27 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:38:27 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:38:27 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:38:27 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:38:27 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:38:27 symfony [err] {sfException} Call to undefined method sfUser::SfGuardUser
+Jun 19 13:39:16 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:39:16 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:39:16 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:39:16 symfony [info] {sfContext} initialization
+Jun 19 13:39:16 symfony [info] {sfController} initialization
+Jun 19 13:39:16 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:39:16 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:39:16 symfony [info] {sfController} dispatch request
+Jun 19 13:39:16 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:39:16 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:39:16 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:39:16 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:39:16 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:39:16 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:39:16 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:39:16 symfony [err] {sfException} Call to undefined method sfUser::getsfGuardUser
+Jun 19 13:39:24 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:39:24 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:39:24 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:39:24 symfony [info] {sfContext} initialization
+Jun 19 13:39:24 symfony [info] {sfController} initialization
+Jun 19 13:39:24 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:39:24 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:39:24 symfony [info] {sfController} dispatch request
+Jun 19 13:39:24 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:39:24 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:39:24 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:39:24 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:39:24 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:39:24 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:39:24 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:39:24 symfony [err] {sfException} Call to undefined method sfUser::getsfGuard
+Jun 19 13:39:37 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:39:37 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:39:37 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:39:37 symfony [info] {sfContext} initialization
+Jun 19 13:39:37 symfony [info] {sfController} initialization
+Jun 19 13:39:37 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:39:37 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:39:37 symfony [info] {sfController} dispatch request
+Jun 19 13:39:37 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:39:37 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:39:37 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:39:37 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:39:37 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:39:37 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:39:37 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:40:44 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:40:44 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:40:44 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:40:44 symfony [info] {sfContext} initialization
+Jun 19 13:40:44 symfony [info] {sfController} initialization
+Jun 19 13:40:44 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:40:44 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:40:44 symfony [info] {sfController} dispatch request
+Jun 19 13:40:44 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:40:44 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:40:44 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:40:44 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:40:44 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:40:44 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:40:44 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:40:44 symfony [err] {sfException} Call to undefined method sfUser::sfGuard
+Jun 19 13:40:51 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:40:51 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:40:51 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:40:51 symfony [info] {sfContext} initialization
+Jun 19 13:40:51 symfony [info] {sfController} initialization
+Jun 19 13:40:51 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:40:51 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:40:51 symfony [info] {sfController} dispatch request
+Jun 19 13:40:51 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:40:51 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:40:51 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:40:51 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:40:51 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:40:51 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:40:51 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:40:51 symfony [err] {sfException} Call to undefined method sfUser::sfGuard
+Jun 19 13:40:56 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:40:56 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:40:56 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:40:56 symfony [info] {sfContext} initialization
+Jun 19 13:40:56 symfony [info] {sfController} initialization
+Jun 19 13:40:56 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:40:56 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:40:56 symfony [info] {sfController} dispatch request
+Jun 19 13:40:56 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:40:56 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:40:56 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:40:56 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:40:56 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:40:56 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:40:56 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:40:56 symfony [err] {sfException} Call to undefined method sfUser::sfGuard
+Jun 19 13:41:01 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:41:01 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:41:01 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:41:01 symfony [info] {sfContext} initialization
+Jun 19 13:41:01 symfony [info] {sfController} initialization
+Jun 19 13:41:01 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:41:01 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:41:01 symfony [info] {sfController} dispatch request
+Jun 19 13:41:01 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:41:01 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:41:01 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:41:01 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:41:01 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:41:01 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:41:01 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:41:01 symfony [err] {sfException} Call to undefined method sfUser::sfGuard
+Jun 19 13:41:08 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:41:08 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:41:08 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:41:08 symfony [info] {sfContext} initialization
+Jun 19 13:41:08 symfony [info] {sfController} initialization
+Jun 19 13:41:08 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:41:08 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:41:08 symfony [info] {sfController} dispatch request
+Jun 19 13:41:08 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:41:08 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:41:08 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:41:08 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:41:08 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:41:08 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:41:08 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:41:08 symfony [err] {sfException} Call to undefined method sfUser::SfGuard
+Jun 19 13:41:12 symfony [info] {sfRouting} connect "/login"
+Jun 19 13:41:12 symfony [info] {sfRouting} connect "/logout"
+Jun 19 13:41:12 symfony [info] {sfRouting} connect "/request_password"
+Jun 19 13:41:12 symfony [info] {sfContext} initialization
+Jun 19 13:41:12 symfony [info] {sfController} initialization
+Jun 19 13:41:12 symfony [info] {sfRouting} match route [default_index] "/:module"
+Jun 19 13:41:12 symfony [info] {sfRequest} request parameters array (  'module' => 'home',  'action' => 'index',)
+Jun 19 13:41:12 symfony [info] {sfController} dispatch request
+Jun 19 13:41:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 19 13:41:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Jun 19 13:41:12 symfony [info] {sfFilter} executing filter "sfBasicSecurityFilter"
+Jun 19 13:41:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 19 13:41:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 19 13:41:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 19 13:41:12 symfony [info] {sfAction} call "homeActions->executeIndex()"
+Jun 19 13:41:12 symfony [err] {sfException} Call to undefined method sfUser::getsfGuard

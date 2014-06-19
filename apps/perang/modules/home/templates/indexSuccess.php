@@ -1,5 +1,18 @@
 <div class="col-lg-4">
-    ID USER
+<!--    <div class="col-lg-4">
+        <?php // echo image_tag('../uploads/' . $user->getFile(), array('style' => 'width:100%')); ?>
+    </div>
+    <div class="col-lg-8">
+        <label>Profile</label>
+        <label>
+            <?php // echo $user->getNama();?><BR>
+            <?php // echo "W/L : ".$user->getWin()."/".$user->getLose();?><BR>
+            <?php // echo "Games: ".$user->getGames();?><BR>
+        </label>
+        <button type="submit" class="btn btn-lg btn-success"><i class="fa fa-search"></i>Edit Profile</button>
+                            
+    </div>-->
+
 </div>
 <div class="col-lg-8">
     <table id="table1" class="table table-striped table-bordered" >
@@ -86,7 +99,7 @@
 <script>
     function validator()
     {
-        if(!$('#data_nama').val())
+        if (!$('#data_nama').val())
         {
             alertify.alert('Nama Room Harus Diisi');
             event.preventDefault();
@@ -94,26 +107,26 @@
     }
     $(document).ready(function() {
         $('#table1').dataTable(
-        {
-            "bSort": false,
-            "language":{
-                "sProcessing":   "Sedang memproses...",
-                "sLengthMenu":   "Tampilkan _MENU_ entri",
-                "sZeroRecords":  "Tidak ditemukan data yang sesuai",
-                "sInfo":         "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri",
-                "sInfoEmpty":    "Menampilkan 0 sampai 0 dari 0 entri",
-                "sInfoFiltered": "(disaring dari _MAX_ entri keseluruhan)",
-                "sInfoPostFix":  "",
-                "sSearch":       "Cari:",
-                "sUrl":          "",
-                "oPaginate": {
-                    "sFirst":    "Pertama",
-                    "sPrevious": "Sebelumnya",
-                    "sNext":     "Selanjutnya",
-                    "sLast":     "Terakhir"
+                {
+                    "bSort": false,
+                    "language": {
+                        "sProcessing": "Sedang memproses...",
+                        "sLengthMenu": "Tampilkan _MENU_ entri",
+                        "sZeroRecords": "Tidak ditemukan data yang sesuai",
+                        "sInfo": "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri",
+                        "sInfoEmpty": "Menampilkan 0 sampai 0 dari 0 entri",
+                        "sInfoFiltered": "(disaring dari _MAX_ entri keseluruhan)",
+                        "sInfoPostFix": "",
+                        "sSearch": "Cari:",
+                        "sUrl": "",
+                        "oPaginate": {
+                            "sFirst": "Pertama",
+                            "sPrevious": "Sebelumnya",
+                            "sNext": "Selanjutnya",
+                            "sLast": "Terakhir"
+                        }
+                    }
                 }
-            }
-        }    
-    );
-    } );
+        );
+    });
 </script>
