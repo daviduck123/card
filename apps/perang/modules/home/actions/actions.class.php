@@ -18,6 +18,7 @@ class homeActions extends sfActions
   {
       $roomAktif=  RoomPeer::ambilRoom();
       $this->room=$roomAktif;
+      //asd
       
   }
 }
