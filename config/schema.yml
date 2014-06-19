@@ -3,7 +3,7 @@ propel:
         id: ~
         point: integer
         file: varchar(255)
-        keterangan: text
+        keterangan: longvarchar
         created_at: ~
         updated_at: ~
     meja:
@@ -18,7 +18,7 @@ propel:
     skill:
         id: ~
         nama: varchar(255)
-        deskripsi: text
+        deskripsi: longvarchar
         created_at: ~
         updated_at: ~
     game:
@@ -32,6 +32,7 @@ propel:
         nama: varchar(255)
         jumlah: integer
         max: integer
+        id_user: { type: integer, required: true, foreignTable: user, foreignReference: id }
         created_at: ~
         updated_at: ~
     user:
@@ -45,7 +46,7 @@ propel:
         win: integer
         lose: integer
         point: integer
-        id_room: { type: integer, required: true, foreignTable: room    , foreignReference: id }
+        id_room: { type: integer, required: true, foreignTable: room, foreignReference: id }
         id_sf: integer
         created_at: ~
         updated_at: ~
