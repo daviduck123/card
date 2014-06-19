@@ -21,7 +21,8 @@ class homeActions extends sfActions {
         $roomAktif = RoomPeer::ambilRoom();
         $this->room = $roomAktif;
 
-        //$objectUser = UserPeer::getInfoUser($this->getUser()->getSfGuard()->getId());
+        $objectUser = UserPeer::getInfoUser($this->getUser()->getGuardUser()->getId());
+        $this->user=$objectUser;
         //asd
         //asd
     }

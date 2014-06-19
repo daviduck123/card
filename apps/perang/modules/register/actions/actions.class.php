@@ -43,7 +43,7 @@ class registerActions extends sfActions {
             
             if (!$error_gambar) {
                 $nama_file = $this->getRequest()->getFilename('file');
-                $this->getRequest()->moveFile('gambar', sfConfig::get('sf_upload_dir') . '/' . $nama_file);
+                $this->getRequest()->moveFile('file', sfConfig::get('sf_upload_dir') . '/' . $nama_file);
                 $user->setFile($nama_file);
             }
 

@@ -1,17 +1,19 @@
 <div class="col-lg-4">
-<!--    <div class="col-lg-4">
-        <?php // echo image_tag('../uploads/' . $user->getFile(), array('style' => 'width:100%')); ?>
+    <div class="col-lg-4">
+        <?php  echo image_tag('/uploads/' . $user->getFile(), array('style' => 'width:100%')); ?>
     </div>
     <div class="col-lg-8">
         <label>Profile</label>
+        <br>
         <label>
-            <?php // echo $user->getNama();?><BR>
-            <?php // echo "W/L : ".$user->getWin()."/".$user->getLose();?><BR>
-            <?php // echo "Games: ".$user->getGames();?><BR>
+            <?php  echo $user->getNama();?><BR>
+            <?php  echo "W/L : ".$user->getWin()."/".$user->getLose();?><BR>
+            <?php  echo "Games: ".$user->getGames();?><BR>
         </label>
+        <br>
         <button type="submit" class="btn btn-lg btn-success"><i class="fa fa-search"></i>Edit Profile</button>
                             
-    </div>-->
+    </div>
 
 </div>
 <div class="col-lg-8">
